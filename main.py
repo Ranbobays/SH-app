@@ -70,7 +70,7 @@ def generate():
                         prompt_parts.append(types.Part.from_bytes(data=file_bytes, mime_type=mime_type))
 
                     # --- INI "OTAK" ASLI KAMU (TIDAK DIUBAH) ---
-                    model = "gemini-2.0-flash-thinking-exp" # Gunakan versi thinking terbaru
+                    model = model = "gemini-2.0-flash" # Gunakan versi thinking terbaru
                     
                     generate_content_config = types.GenerateContentConfig(
                         thinking_config=types.ThinkingConfig(
